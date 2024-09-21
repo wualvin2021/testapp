@@ -2,7 +2,12 @@
 <module type="RUBY_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../app_name" />
+    <content url="file://$MODULE_DIR$/../../app_name">
+      <excludeFolder url="file://$MODULE_DIR$/../../app_name/tmp/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../app_name/tmp/miniprofiler" />
+      <excludeFolder url="file://$MODULE_DIR$/../../app_name/tmp/sockets" />
+      <excludeFolder url="file://$MODULE_DIR$/../../app_name/tmp/storage" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="RubyModuleProperties">
