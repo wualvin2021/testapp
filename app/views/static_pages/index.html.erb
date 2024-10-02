@@ -1,0 +1,16 @@
+<h1>Posts List</h1>
+
+<% if @posts.present? %>
+  <ul>
+    <% @posts.each do |post| %>
+      <li>
+        <strong>Post ID:</strong> <%= post.id %><br>
+        <strong>Content:</strong> <%= post.content %><br>
+        <strong>Posted by:</strong> <%= post.user.username %><br><br>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No posts available at the moment.</p>
+<% end %>
+
